@@ -1,0 +1,56 @@
+html {
+  background: url(img/books-background.jpg) no-repeat center fixed;
+  background-size: cover;
+  width: 600px;
+  margin: 25px auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  border: 4px;
+  border-radius: 15px;
+  background-color: rgba(255, 225, 225, 0.7);
+  padding: 10px 25px;
+}
+
+h1,
+.image {
+  text-align: center;
+}
+
+p {
+  font-family: cursive;
+}
+
+.webLink {
+  font-size: small;
+  font-family: monospace;
+}
+
+.score {
+  font-weight: bold;
+}
+
+a:hover {
+  color: crimson;
+}
+
+a {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+#raven,
+#detective,
+#feathers,
+#dream {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: rgb(23, 83, 133);
+}
+
+#messageSpan {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(7, 53, 17);
+}
